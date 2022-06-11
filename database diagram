@@ -1,0 +1,50 @@
+MODEL/DB FIELDS
+
+
+## LISTINGS
+id:
+realtor id int Fk
+title: str
+address: str
+city:  str
+state: str
+zipcode: int
+description: text
+price: int
+bedrooms: int 
+bathrooms: int
+garage: int [0]
+sqft: int
+lot_size: float
+is_published: bool [true]
+list_date: date
+main_photo: str
+photo_1: str
+photo_2: str
+photo_3: str
+photo_4: str
+photo_5: str
+photo_5: str
+
+
+## REALTOR
+ id: int
+ name: str
+ photo: str
+ desciption: text
+ email: str
+ phone: str
+ is_mvb: boolian [0]
+ hire_date: date
+
+
+ # contact
+ id: int
+ listing: int
+ listing_id: int
+ name: str:
+ email: str
+ phone: str
+ message: text
+ contact_date: Date
+

@@ -1,0 +1,61 @@
+:root {
+ --body-bg: white;
+ --body-fg: white;
+ --darkened-bg: white;
+ --hairline-color:#eee;
+ --body-quiet-color: #333;
+ --header-bg:#036;
+ --selected-bg: #f8f8f8;
+}
+
+#branding h1 {
+  color: #fff;
+}
+
+body {
+
+    color: var(--body-fg);
+    background: var(--body-bg);
+
+}
+
+#header{
+
+  background: var(--header-bg);
+}
+
+
+#h1 {
+  color: var(--body-quiet-color);
+}
+
+a:link,
+a:visited {
+  color:#10284e;
+}
+
+div.breadcrumbs {
+  background: #30caa0;
+  color: #10284e;
+}
+
+div.breadcrumbs a {
+  color: #333;
+}
+
+.module h2, .module caption, .inline-group h2 {
+  background: #30caa0;
+}
+
+.button, input[type=submit], input[type=button], .submit-row input, a.button {
+  background: #10284e;
+  color: #fff;
+}
+
+#changelist-filter {
+    flex: 0 0 240px;
+    order: 1;
+    background: #eee;
+    border-left: none;
+    margin: 0 0 0 30px;
+}
